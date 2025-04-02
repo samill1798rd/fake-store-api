@@ -4,7 +4,7 @@ on:
 jobs:
   k6_perfomance_test:
     name: k6 test
-    runs-om: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
